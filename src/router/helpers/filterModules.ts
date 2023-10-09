@@ -14,8 +14,7 @@ export function sortRoutes(routes: RouteRecordRaw[]) {
 export function getModulesRoutes(modules: Record<string, any>) {
   const routes: RouteRecordRaw[] = [];
 
-  Object.keys(modules).forEach((key: string) => {
-    routes.push(modules[key].default);
-  });
+  Object.keys(modules).forEach((key: string) => routes.push(modules[key].default));
+
   return sortRoutes(routes);
 }

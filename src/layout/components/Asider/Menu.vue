@@ -25,6 +25,7 @@ const appStore = useAppStore();
 const themeStore = useThemeStore();
 const routeStore = useRouteStore();
 const menus = computed(() => routeStore.menus);
+
 const activeMenu = computed(() => router.currentRoute.value.path);
 
 const handleSelect = (key: string) => {

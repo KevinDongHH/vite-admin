@@ -1,7 +1,7 @@
 // 默认缓存期限为7天
 const DEFAULT_CACHE_TIME = 60 * 60 * 24 * 7;
 // 默认缓存关键字前缀
-const CACHE_KEY = 'Element-Admin-';
+const CACHE_KEY = 'Vite-Admin-';
 
 /**
  * @description 操作本地 `localStorage`
