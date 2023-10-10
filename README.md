@@ -1,6 +1,6 @@
 ## 简介
 
-ElementAdmin 是一个基于 Vue3、Vite、TypeScript、Unocss、Element plus、Pinia、VueUse 的后台模版，它使用了最新的前端技术栈，内置主题配置、动态菜单、权限校验等，基于 mock 实现的动态数据展示，可以当作开箱的模板，也可用于学习参考。
+一个基于 Vue3、Vite、TypeScript、Unocss、Element plus、Pinia、VueUse 的后台模版，它使用了最新的前端技术栈，内置主题配置、动态菜单、权限校验等，基于 mock 实现的动态数据展示，可以当作开箱的模板，也可用于学习参考。
 
 ### 特性
 
@@ -19,8 +19,7 @@ ElementAdmin 是一个基于 Vue3、Vite、TypeScript、Unocss、Element plus、
 
 ## 代码仓库
 
-- [gitee](https://gitee.com/A1059784729/Element-Admin)
-- [github](https://github.com/KYX1234/Element-Admin)
+- [github](https://github.com/KevinDongHH/vite-admin)
 
 ## 项目示例图
 
@@ -56,6 +55,3 @@ pnpm dev
 pnpm build
 ```
 
-## 更新日志
-
-[更新日志](./CHANGELOG.md)
